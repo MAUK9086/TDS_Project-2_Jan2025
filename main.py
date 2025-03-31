@@ -116,7 +116,7 @@ def Solve_Unknown_Task(question):
         "messages": [{"role": "user", "content": question+" return only the answer"}]
     }
     # API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjIwMDE2NDArMUBkcy5zdHVkeS5paXRtLmFjLmluIn0.Oeg6lAaRenn3gnBWd6qaGscvatJ6ftTpvw-waESMVs8"
-    API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDE1NTFAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.BkF49EwczoSdCZlFVYsjSxDEoqI3An374-K86-0p-Mw"
+    API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjEwMDE3ODhAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.0cmkl1MvwXUfSbipxrVxSyG2aoq9pi2ch6xu78aAR38"
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {API_KEY}"
