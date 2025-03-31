@@ -358,6 +358,8 @@ async def GA1_12(question: str, zip_file: UploadFile):
 # Download  and unzip it into a new folder, then replace all "IITM" ( in upper, lower, or mixed case) with "IIT Madras" in all files. Leave everything as- is - don't change the line endings.
 # What does running cat * | sha256sum in that folder show in bash?
 
+async def GA1_13(question):
+    return "https://raw.githubusercontent.com/MAUK9086/TDS_IITM/refs/heads/main/email.json"
 
 async def GA1_14(question: str, zip_file: UploadFile):
     # Step 1: Extract words to replace and the replacement word from the question
