@@ -215,7 +215,7 @@ def GA1_13(question):
         replacement=f'"email": "{email}"'
     )
     print("Email updated in email.json")
-    return "https://raw.githubusercontent.com/MJ665/Test/main/email.json"
+    return "https://raw.githubusercontent.com/MAUK9086/TDS_IITM/main/email.json"
 
 def GA2_3(question):
     pattern = r"\b([\w.+-]+)@ds\.study\.iitm\.ac\.in\b"
